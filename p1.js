@@ -194,3 +194,53 @@ function firstAndLastElement(arr){
 // console.log(firstAndLastElement([21,1,2,3,4,5,6,7,8,9,10]));// [1,10]
 
 
+// Array methods:
+// 1. push() : add element at the end of the array
+// 2. pop() : remove element from the end of the array
+// 3. shift() : remove element from the start of the array
+// 4. unshift() : add element at the start of the array
+// 5. splice() : add or remove element from the array
+// 6. slice() : copy the array elements
+// 7. concat() : merge two or more arrays
+// 8. indexOf() : find the index of element
+// 9. lastIndexOf() : find the last index of element
+// 10. includes() : check the element is present or not
+// 11. find() : find the element from the array
+// 12. findIndex() : find the index of element from the array
+// 13. filter() : filter the element from the array
+// 14. map() : map the element from the array
+// 15. reduce() : reduce the element from the array
+// 16. forEach() : iterate the element from the array
+// 17. some() : check the element is present or not
+// 18. every() : check all the element is present or not
+// 19. sort() : sort the element from the array
+// 20. reverse() : reverse the element from the array
+// 21. join() : join the element from the array
+// 22. toString() : convert the array to string
+// 23. isArray() : check the element is array or not
+// 24. fill() : fill the element in the array
+// 25. copyWithin() : copy the element from the array
+// 26. flat() : flat the array
+// 27. flatMap() : flat the array and map the element
+// 28. keys() : return the keys of the array
+// 29. values() : return the values of the array
+// 30. entries() : return the entries of the array
+// 31. from() : create the array from the object
+
+
+
+
+// ########## Check element is present in array or not ##########
+
+function isElementPresent(arr,target){
+   for (let x of arr){
+    if(x==target){
+        return true
+    }
+   }
+    return false
+
+
+}
+
+console.log(isElementPresent([1,2],2));// true
